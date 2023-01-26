@@ -2,7 +2,7 @@
 
 This repository contains additional material for the paper "Towards Explanations of Learning-to-Rank Models for Test Case Prioritisation", submitted to the 3rd International Workshop on Artificial Intelligence in Software Testing ([AIST@ICST 2023](https://aistworkshop.github.io/)).
 
-## Experiment
+## Experiment description
 
 In the paper, we describe different practical scenarios in which the use of eXplainable AI (XAI) could be interest to understand learning-to-rank (LTR) models for test case prioritisation. Our experiment covers the following scenarios described in the paper:
 
