@@ -4,7 +4,7 @@ This repository contains additional material for the paper "Towards Explanations
 
 ## Experiment description
 
-In the paper, we describe different practical scenarios in which the use of eXplainable AI (XAI) could be interest to understand learning-to-rank (LTR) models for test case prioritisation. Our experiment covers the following scenarios described in the paper:
+In the paper, we describe different practical scenarios in which the use of eXplainable AI (XAI) could be of interest to understand learning-to-rank (LTR) models for test case prioritisation (TCP). Our experiment covers the following scenarios described in the paper:
 
 - Notebook **aist_scenario1a1b.ipynb**: We train and test a LTR model (see methodology below), then we generate global and local explanations to compare feature importance.
 - Notebook **aist_scenario1c.ipynb**: We compare the local explanations of all pairs of test cases to analyse their similarities.
