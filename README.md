@@ -50,7 +50,9 @@ The performance of the algorithm for all builds is available as CSV file: [lambd
 
 ### Explainable method
 
-Once we have obtained the ranking in the test partition, we need an explainable method to analyse the importance of the features in particular test cases. Break Down [3] is the XAI method applied to generate local explanations. Break Down assigns a positive or negative contribution to each feature, so that summing all contributions yields the prediction value. The method aims to facilitate the understanding of the explanations by ordering the features by contributing to focus on only a few features. For scenario 1C, we will calculate the cosine similarity of the feature contributions for all pairs of test cases in the classification. We scale the feature contribution values based on the sum of all contributions for each test case prediction, retaining the contribution signs after scaling.
+Once we have obtained the ranking in the test partition, we need an explainable method to analyse the importance of the features in particular test cases. Break Down [3] is the XAI method applied to generate local explanations. Break Down assigns a positive or negative contribution to each feature, so that summing all contributions yields the prediction value. The method aims to facilitate the understanding of the explanations by ordering the features by contributing to focus on only a few features. For scenario 1C, we will calculate the cosine similarity of the feature contributions for all pairs of test cases in the ranking. We scale the feature contribution values based on the sum of all contributions for each test case prediction, retaining the contribution signs after scaling.
+
+The explanation similarities for all pair of test cases in the build are available as CSV file: [lambdaMART_TCP_explanation_similarities.csv](data/lambdaMART_TCP_explanation_similarities.csv).
 
 ## References
 
