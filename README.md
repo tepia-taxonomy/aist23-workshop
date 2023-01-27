@@ -1,24 +1,24 @@
-# Towards Explanations of Learning-to-Rank Models for Test Case Prioritisation
+# Towards Explainable Test Case Prioritisation with Learning-to-Rank Models
 
-This repository contains additional material for the paper "Towards Explanations of Learning-to-Rank Models for Test Case Prioritisation", submitted to the 3rd International Workshop on Artificial Intelligence in Software Testing ([AIST@ICST 2023](https://aistworkshop.github.io/)).
+This repository contains additional material for the paper "Towards Explainable Test Case Prioritisation with Learning-to-Rank Models", submitted to the 3rd International Workshop on Artificial Intelligence in Software Testing ([AIST@ICST 2023](https://aistworkshop.github.io/)).
 
 ## Experiment description
 
 In the paper, we describe different practical scenarios in which the use of eXplainable AI (XAI) could be of interest to understand learning-to-rank (LTR) models for test case prioritisation (TCP). Our experiment covers the following scenarios described in the paper:
 
-- Notebook **aist_scenario1a1b.ipynb**: We train and test a LTR model (see methodology below), then we generate global and local explanations to compare feature importance.
-- Notebook **aist_scenario1c.ipynb**: We compare the local explanations of all pairs of test cases to analyse their similarities.
+- Notebook [**aist_scenario1a1b.ipynb**](code/aist_scenario1a1b.ipynb): We train and test a LTR model (see methodology below), then we generate global and local explanations to compare feature importance.
+- Notebook [**aist_scenario1c.ipynb**](code/aist_scenario1c.ipynb): We compare the local explanations of all pairs of test cases to analyse their similarities.
 
 ## Organisation
 
 This repository is organised as follows:
 
 * The *data* folder includes the CSV files with the different analyses carried out in our experiment. 
-* The *code* folder includes the Python notebooks to replicate the experiment.
+* The *code* folder includes the Python notebooks and additional classes to replicate the experiment.
 
 ## Dependencies
 
-Our experimental study uses resources from another paper [1]. Please, visit their [repository](https://github.com/Ahmadreza-SY/TCP-CI) for details about the original data and preprocessing code. The dataset provided by the authors of this paper is hosted on [Zenodo](https://zenodo.org/record/6415365#.Y9Kw43bMJD8). Follow the instructions to download and unzip the artifact **TCP-CI-main-dataset.tar.gz**.
+Our experimental study uses resources from another paper [1]. Please, visit their [repository](https://github.com/Ahmadreza-SY/TCP-CI) for details about the original data and preprocessing code. The dataset provided by the authors of this paper is hosted on [Zenodo](https://zenodo.org/record/6415365#.Y9Kw43bMJD8). Follow the instructions to download and unzip the artifact **TCP-CI-main-dataset.tar.gz**. The extracted folder (*datasets*) and our code folder should be at the same level.
 
 Our code has been developed on Python 3.10. To install the dependencies required to run the notebooks, use the following command:
 
