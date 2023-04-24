@@ -1,6 +1,6 @@
 # Towards Explainable Test Case Prioritisation with Learning-to-Rank Models
 
-This repository contains additional material for the paper "Towards Explainable Test Case Prioritisation with Learning-to-Rank Models", submitted to the 3rd International Workshop on Artificial Intelligence in Software Testing ([AIST@ICST 2023](https://aistworkshop.github.io/)).
+This repository contains additional material for the paper "Towards Explainable Test Case Prioritisation with Learning-to-Rank Models", presented at the 3rd International Workshop on Artificial Intelligence in Software Testing ([AIST@ICST 2023](https://aistworkshop.github.io/)).
 
 ## Experiment description
 
@@ -15,6 +15,7 @@ This repository is organised as follows:
 
 * The *data* folder includes the CSV files with the different analyses carried out in our experiment. 
 * The *code* folder includes the Python notebooks and additional classes to replicate the experiment.
+* The *slides* folder includes the slides presented at the workshop.
 
 ## Dependencies
 
