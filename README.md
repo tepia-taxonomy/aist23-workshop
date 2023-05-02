@@ -59,9 +59,9 @@ The explanation similarities for all pair of test cases in the build are availab
 
 [1] A. S. Yaraghi, M. Bagherzadeh, N. Kahani and L. Briand, "Scalable and Accurate Test Case Prioritization in Continuous Integration Contexts," in IEEE Transactions on Software Engineering, 2022. [DOI:10.1109/TSE.2022.3184842](https://doi.org/10.1109/TSE.2022.3184842).
 
-[2] M. Staniak and Przemysław Biecek, "Explanations of Model Predictions with live and breakDown Packages," The R Journal, vol. 10(2), pp. 395-409, 2018.
+[2] G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.-Y. Liu, "LightGBM: a highly efficient gradient boosting decision tree. " in Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS), pp. 3149–3157, 2017. [Link](https://dl.acm.org/doi/10.5555/3294996.3295074).
 
-[3] G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.-Y. Liu, "LightGBM: a highly efficient gradient boosting decision tree. " in Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS), pp. 3149–3157, 2017. [Link](https://dl.acm.org/doi/10.5555/3294996.3295074).
+[3] M. Staniak and Przemysław Biecek, "Explanations of Model Predictions with live and breakDown Packages," The R Journal, vol. 10(2), pp. 395-409, 2018.
 
 ## Contributors
 
